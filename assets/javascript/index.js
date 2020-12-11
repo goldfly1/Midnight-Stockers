@@ -16,3 +16,18 @@
 /*    track watchlist ups and downs  */
 /*      */
 /*      */
+
+
+
+function ticker(){
+/* Stock ticker every 3 minutes */
+}
+function picks(){
+/* Reommendations once per session  (or user update request?) */
+}
+function news(){
+      /* news feed every 10=30? minutes */
+}
+function client(){
+/* no real ideas yet about working the client page */
+}
