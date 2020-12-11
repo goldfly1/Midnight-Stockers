@@ -35,7 +35,7 @@ the rest go on the marketSheet page.
 
 on the home page they should each have a blurbLine  LOREM will do.
 
-when viewed individually the should have a bigger blurb
+when viewed individually the stock should have a blurbLine
 
 obj has ticker name buy/sell/nothing   blurb
 */
@@ -54,7 +54,7 @@ client portfolio obj id#   stock when bought  price when bought    current price
 
 clent watch obj id#   stock when picked  price when picked    current price
 
-acount obj     money in   value of portfolio   value of pseudo portfolio
+acount obj     cash balance   value of portfolio   value of pseudo portfolio
 
-the system is a client and has it's own account with it's own portfolio of all THORETICAL trades*/
+the system is a client and has it's own account with it's own portfolio of ALL THORETICAL trades*/
 }
