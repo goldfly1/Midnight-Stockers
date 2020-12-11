@@ -20,14 +20,24 @@
 
 
 function ticker(symbol,price,change){
-/* Stock ticker every 3 minutes */
+/* Stock ticker every 3 minutes
+it's a string crawling across the div when it gets long enough start slicing off it's nose*/
 }
 function picks(symbol,name,weekly){
-/* Reommendations once per load. They are weekly after all
-take info if it is up for the month and up for the week it is recommended buy
+/* USE S&P 500 I GUESS
+Reommendations once per load. They are weekly after all
+
+read info      if it is up for the month and up for the week it is a buy
 if both are down it's a sell
-feed the first 5 or 6 lines to the Top Picks list on home page
+
+feed the first 5 or 10 lines to the Top Picks list on home page
 the rest go on the marketSheet page.
+
+on the home page they should each have a blurbLine  LOREM will do.
+
+when viewed individually the should have a bigger blurb
+
+obj has ticker name buy/sell/nothing   blurb
 */
 }
 function news(line){
@@ -39,8 +49,12 @@ replace on news div every 15 seconds*/
 function client(name){
 /* kinda static kinda not
 client info obj    fName lName id# address email(s) phone(s)
+
 client portfolio obj id#   stock when bought  price when bought    current price
+
 clent watch obj id#   stock when picked  price when picked    current price
+
 acount obj     money in   value of portfolio   value of pseudo portfolio
-*/
+
+the system is a client and has it's own account with it's own portfolio of all THORETICAL trades*/
 }
