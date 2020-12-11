@@ -19,15 +19,28 @@
 
 
 
-function ticker(){
+function ticker(symbol,price,change){
 /* Stock ticker every 3 minutes */
 }
-function picks(){
-/* Reommendations once per session  (or user update request?) */
+function picks(symbol,name,weekly){
+/* Reommendations once per load. They are weekly after all
+take info if it is up for the month and up for the week it is recommended buy
+if both are down it's a sell
+feed the first 5 or 6 lines to the Top Picks list on home page
+the rest go on the marketSheet page.
+*/
 }
-function news(){
-      /* news feed every 10=30? minutes */
+function news(line){
+/* news feed every 3=30? minutes
+read lines into object    object into array
+replace on news div every 15 seconds*/
+
 }
-function client(){
-/* no real ideas yet about working the client page */
+function client(name){
+/* kinda static kinda not
+client info obj    fName lName id# address email(s) phone(s)
+client portfolio obj id#   stock when bought  price when bought    current price
+clent watch obj id#   stock when picked  price when picked    current price
+acount obj     money in   value of portfolio   value of pseudo portfolio
+*/
 }
